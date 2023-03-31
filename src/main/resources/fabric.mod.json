@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "munfysmp-lib",
+	"version": "${version}",
+	"name": "MunfySMP Library",
+	"description": "MunfySMP Library Mod!",
+	"authors": [
+		"Mavas Inc."
+	],
+	"contact": {
+		"homepage": "https://server.mavas.tk/MunfySMP/Mods/Lib",
+		"sources": "https://github.com/hewkawar/MunfySMP-Lib"
+	},
+	"license": "Unlicense",
+	"icon": "assets/munfysmp-lib/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.mufysmp.MunfySMP"
+		],
+		"client": [
+			"net.mufysmp.MunfySMPClient"
+		]
+	},
+	"mixins": [
+		"munfysmp-lib.mixins.json",
+		{
+			"config": "munfysmp-lib.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.14.17",
+		"minecraft": "~1.19.2",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
