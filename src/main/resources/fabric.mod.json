@@ -16,10 +16,10 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.mufysmp.MunfySMP"
+			"net.munfysmp.MunfySMP"
 		],
 		"client": [
-			"net.mufysmp.MunfySMPClient"
+			"net.munfysmp.MunfySMPClient"
 		]
 	},
 	"mixins": [

@@ -2,12 +2,12 @@
 	"credit": "Made with Blockbench",
 	"parent": "block/block",
 	"textures": {
-		"particle": "minecraft:block/oak_planks",
-		"bottom": "minecraft:block/oak_planks",
-		"base": "minecraft:block/lectern_base",
-		"front": "minecraft:block/lectern_front",
-		"sides": "minecraft:block/lectern_sides",
-		"top": "munfysmp-lib:block/lectern_top"
+		"top": "munfysmp-lib:block/lectern_top",
+		"bottom": "munfysmp-lib:block/oak_planks",
+		"base": "munfysmp-lib:block/lectern_base",
+		"front": "munfysmp-lib:block/lectern_front",
+		"particle": "munfysmp-lib:block/lectern_sides",
+		"sides": "munfysmp-lib:block/lectern_sides"
 	},
 	"elements": [
 		{
@@ -41,10 +41,10 @@
 			"faces": {
 				"north": {"uv": [0, 0, 8, 13], "texture": "#front"},
 				"east": {"uv": [2, 16, 15, 8], "rotation": 90, "texture": "#sides"},
-				"south": {"uv": [8, 3, 16, 16], "texture": "#front"},
+				"south": {"uv": [8, 3, 16, 16], "texture": "#sides"},
 				"west": {"uv": [2, 8, 15, 16], "rotation": 90, "texture": "#sides"},
-				"up": {"uv": [0, 0, 0, 0], "texture": "#front"},
-				"down": {"uv": [0, 0, 0, 0], "texture": "#front"}
+				"up": {"uv": [0, 0, 0, 0], "texture": "#missing"},
+				"down": {"uv": [0, 0, 0, 0], "texture": "#missing"}
 			}
 		}
 	],
