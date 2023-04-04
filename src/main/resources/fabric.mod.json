@@ -1,6 +1,6 @@
 {
 	"schemaVersion": 1,
-	"id": "munfysmp-lib",
+	"id": "munfysmp",
 	"version": "${version}",
 	"name": "MunfySMP Library",
 	"description": "MunfySMP Library Mod!",
@@ -12,7 +12,7 @@
 		"sources": "https://github.com/hewkawar/MunfySMP-Lib"
 	},
 	"license": "Unlicense",
-	"icon": "assets/munfysmp-lib/icon.png",
+	"icon": "assets/munfysmp/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
@@ -23,9 +23,9 @@
 		]
 	},
 	"mixins": [
-		"munfysmp-lib.mixins.json",
+		"munfysmp.mixins.json",
 		{
-			"config": "munfysmp-lib.client.mixins.json",
+			"config": "munfysmp.client.mixins.json",
 			"environment": "client"
 		}
 	],

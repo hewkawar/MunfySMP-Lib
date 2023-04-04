@@ -34,25 +34,25 @@ public class LecternBlock extends Block {
     private static final VoxelShape SHAPE_E = Stream.of(
             Block.createCuboidShape(0, 0, 0, 16, 2, 16),
             Block.createCuboidShape(4, 2, 4, 12, 14, 12),
-            Block.createCuboidShape(15,10,16,11,14,0),
-            Block.createCuboidShape(0,12,5,16,16,9),
-            Block.createCuboidShape(0,14,9,16,18,13)
+            Block.createCuboidShape(11,10,0,15,14,16),
+            Block.createCuboidShape(7,12,0,11,16,16),
+            Block.createCuboidShape(3,14,0,7,18,16)
     ).reduce((v1, v2) -> VoxelShapes.combineAndSimplify(v1, v2, BooleanBiFunction.OR)).get();
 
     private static final VoxelShape SHAPE_S = Stream.of(
             Block.createCuboidShape(0, 0, 0, 16, 2, 16),
             Block.createCuboidShape(4, 2, 4, 12, 14, 12),
-            Block.createCuboidShape(0,10,1,16,14,5),
-            Block.createCuboidShape(0,12,5,16,16,9),
-            Block.createCuboidShape(0,14,9,16,18,13)
+            Block.createCuboidShape(0,10,11,16,14,15),
+            Block.createCuboidShape(0,12,7,16,16,11),
+            Block.createCuboidShape(0,14,3,16,18,7)
     ).reduce((v1, v2) -> VoxelShapes.combineAndSimplify(v1, v2, BooleanBiFunction.OR)).get();
 
     private static final VoxelShape SHAPE_W = Stream.of(
             Block.createCuboidShape(0, 0, 0, 16, 2, 16),
             Block.createCuboidShape(4, 2, 4, 12, 14, 12),
-            Block.createCuboidShape(0,10,1,16,14,5),
-            Block.createCuboidShape(0,12,5,16,16,9),
-            Block.createCuboidShape(0,14,9,16,18,13)
+            Block.createCuboidShape(1,10,0,5,14,16),
+            Block.createCuboidShape(5,12,0,9,16,16),
+            Block.createCuboidShape(9,14,0,13,18,16)
     ).reduce((v1, v2) -> VoxelShapes.combineAndSimplify(v1, v2, BooleanBiFunction.OR)).get();
 
     @Override

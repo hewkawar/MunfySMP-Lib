@@ -1,18 +1,18 @@
 {
   "variants": {
     "facing=north": {
-      "model": "munfysmp-lib:block/lectern"
+      "model": "munfysmp:block/lectern"
     },
     "facing=south": {
-      "model": "munfysmp-lib:block/lectern",
+      "model": "munfysmp:block/lectern",
       "y": 180
     },
     "facing=west": {
-      "model": "munfysmp-lib:block/lectern",
+      "model": "munfysmp:block/lectern",
       "y": 270
     },
     "facing=east": {
-      "model": "munfysmp-lib:block/lectern",
+      "model": "munfysmp:block/lectern",
       "y": 90
     }
   }

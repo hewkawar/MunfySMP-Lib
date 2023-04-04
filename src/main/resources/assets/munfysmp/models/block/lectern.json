@@ -2,12 +2,12 @@
 	"credit": "Made with Blockbench",
 	"parent": "block/block",
 	"textures": {
-		"top": "munfysmp-lib:block/lectern_top",
-		"bottom": "munfysmp-lib:block/oak_planks",
-		"base": "munfysmp-lib:block/lectern_base",
-		"front": "munfysmp-lib:block/lectern_front",
-		"particle": "munfysmp-lib:block/lectern_sides",
-		"sides": "munfysmp-lib:block/lectern_sides"
+		"top": "munfysmp:block/lectern_top",
+		"bottom": "munfysmp:block/oak_planks",
+		"base": "munfysmp:block/lectern_base",
+		"front": "munfysmp:block/lectern_front",
+		"particle": "munfysmp:block/lectern_sides",
+		"sides": "munfysmp:block/lectern_sides"
 	},
 	"elements": [
 		{
